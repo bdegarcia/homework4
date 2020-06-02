@@ -1,0 +1,17 @@
+.timer {
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    position: relative;
+}
+
+#body-2{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0px;
+}
+
+#question{
+    font-size: 24px;
+}
