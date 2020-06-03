@@ -15,3 +15,9 @@
 #question{
     font-size: 24px;
 }
+
+.buttons{
+    padding: 20px;
+    background-color: darkgoldenrod;
+    color: darkgreen;
+}
