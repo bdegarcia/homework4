@@ -80,10 +80,10 @@ function countdown() {
     }, 1000);
   }
 
-  function questions(){
+  function askQuestions(){
         var element = document.getElementById("question");
         element.innerHTML = quiz.getQuestion().text;
-        var choices = quiz.getQuestion().answers;
+        var choices = questions.answers;
         for(var i = 0; i < answers.length; i++) {
             var element = document.getElementById("answer" + i);
             element.innerHTML = answer[i];
@@ -114,7 +114,7 @@ function game(){
 
     countdown();
 
-    questions();
+    askQuestions();
 };
 
 function endGame(){
